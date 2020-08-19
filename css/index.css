@@ -48,23 +48,33 @@ a:-webkit-any-link {
 .cuerpo{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .foto_central{
     display: flex;
     width: 80%;
     padding: 5px;
+    align-self: center;
+    justify-content: center;
 }
-.comentario{
+.titulo{
     display: flex;
     justify-content: center;
     font-weight: bold;
     font-size: 2rem;
     color: var(--color_cuatro);
 }
+.comentario{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--color_cuatro);
+}
 
 /*Productos para mostrar*/
 .subtitulo{
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: bold;
     margin: 1.2em;
     color: var(--color_cuatro);
@@ -90,8 +100,8 @@ a:-webkit-any-link {
     border: 2px double var(--color_cuatro);
 }
 .foto{
-     width: 80%;
-    height: 30%; 
+    width: 80%;
+    height: 20%; 
     align-self: center;
     padding: 2px;
 }
