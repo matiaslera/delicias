@@ -132,21 +132,20 @@ a:-webkit-any-link {
   
   .footer-item {
     border: 1px solid #fff;
-    background-color: var(--color-primario);
+    background-color: var(--color_uno);
     height: 100px;
     flex: 1;
   }
   
   .footer-central {
-    color: var(--color-primario);
-    background-color: var(--color-secundario);
+    color: var(--color_cuatro);
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   .footer-izquierdo,
   .footer-derecho {
-    background-color: var(--color-primario);
-    flex: 0 0 322px;
+    background-color: var(--color_uno);
   }
