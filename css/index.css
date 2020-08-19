@@ -8,6 +8,8 @@
     --color_dos:#fbe2e5;
     --color_tres:#9cada4;
     --color_cuatro:#767c77;
+    --color_cinco:#f5efc5;
+
 }
 body{
     background-color: var(--color_dos);
@@ -43,6 +45,13 @@ a:-webkit-any-link {
     justify-content: flex-end;
     color: var(--color_uno);
 } 
+a:hover{
+    background-color: var(--color_cinco);
+}
+a{
+    border: 1px solid var(--color_uno);
+    border-radius: 5%;
+}
 
 /*Cuerpo*/
 .cuerpo{
@@ -92,12 +101,12 @@ a:-webkit-any-link {
     margin: 0.8em;
 }
 .prod:hover{
-    background-color: var(--color_tres);
+    background-color: var(--color_cinco);
     border: 2px double var(--color_cuatro);
     border-radius: 3%;
 }
 .prod:focus{
-    border: 2px double var(--color_cuatro);
+    border: 4px double var(--color_cuatro);
 }
 .foto{
     width: 80%;
