@@ -77,7 +77,7 @@ a:-webkit-any-link {
 .prod{
     display: flex;
     width: 30%;
-    height: auto;
+    height: 10%;
     flex-direction: column;
     margin: 0.8em;
 }
@@ -90,8 +90,8 @@ a:-webkit-any-link {
     border: 2px double var(--color_cuatro);
 }
 .foto{
-    width: 80%;
-    height: 200px;
+     width: 80%;
+    height: 30%; 
     align-self: center;
     padding: 2px;
 }
