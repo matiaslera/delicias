@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color_uno:#fabea7;
+    --color_dos:#fbe2e5;
+    --color_tres:#9cada4;
+    --color_cuatro:#767c77;
+}
+body{
+    background-color: var(--color_dos);
+}
+
+.cabecera{
+    background-color: var(--color_cuatro);
+    color: var(--color_uno);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+}
+.nav{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+ .icono{
+    display: flex;
+    align-self: center;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    cursor:none;
+    color:var(--color_uno);
+    padding: 2px;
+    margin: 3px;
+  }
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color_uno);
+} 
+
+/*Cuerpo*/
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+.foto_central{
+    display: flex;
+    width: 80%;
+    padding: 5px;
+}
+.comentario{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color_cuatro);
+}
+
+/*Productos para mostrar*/
+.subtitulo{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 1.2em;
+    color: var(--color_cuatro);
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.prod{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    margin: 0.8em;
+}
+.prod:hover{
+    background-color: var(--color_tres);
+    border: 2px double var(--color_cuatro);
+    border-radius: 3%;
+}
+.prod:focus{
+    border: 2px double var(--color_cuatro);
+}
+.foto{
+    width: 80%;
+    height: 200px;
+    align-self: center;
+    padding: 2px;
+}
+.nombre{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+.descripcion{
+    margin: 3px;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--color_tres);
+}
+/*contacto*/
+.datos_con{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.pedido{
+    width: 25%;
+    height: 200px;
+    align-self: center;
+    padding: 2px;
+}
+.contacto{
+    margin: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: var(--color-primario);
+    height: 100px;
+    flex: 1;
+  }
+  
+  .footer-central {
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-izquierdo,
+  .footer-derecho {
+    background-color: var(--color-primario);
+    flex: 0 0 322px;
+  }
