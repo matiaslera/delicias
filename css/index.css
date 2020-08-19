@@ -134,7 +134,7 @@ a{
 }
 .pedido{
     width: 25%;
-    height: 200px;
+    height: auto;
     align-self: center;
     padding: 2px;
 }
