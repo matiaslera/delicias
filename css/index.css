@@ -104,7 +104,6 @@ a{
 .prod{
     display: flex;
     width: 30%;
-    height: 10%;
     flex-direction: column;
     margin: 0.8em;
 }
@@ -118,7 +117,7 @@ a{
 }
 .foto{
     width: 80%;
-    height: 8em; 
+    max-height: 12em; 
     align-self: center;
     padding: 2px;
 }
