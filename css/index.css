@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 :root{
-    --color_uno:#fabea7;
+    /* --color_uno:#fabea7;
     --color_dos:#fbe2e5;
     --color_tres:#9cada4;
     --color_cuatro:#767c77;
+    --color_cinco:#f5efc5; */
+    --color_uno:#ffffd8;
+    --color_dos:#e0fefe;
+    --color_tres:#9cada4;
+    --color_cuatro:#febcc8;
     --color_cinco:#f5efc5;
+    --color_seis:black;
 
 }
 body{
@@ -70,15 +76,17 @@ a{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: var(--color_cuatro);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0.3em;
 }
 .comentario{
     display: flex;
     justify-content: center;
     font-weight: bold;
     font-size: 1.4rem;
-    color: var(--color_cuatro);
+    color: var(--color_seis);
 }
 
 /*Productos para mostrar*/
@@ -110,7 +118,7 @@ a{
 }
 .foto{
     width: 80%;
-    height: 20%; 
+    height: 8em; 
     align-self: center;
     padding: 2px;
 }
@@ -118,6 +126,7 @@ a{
     font-size: 1.4em;
     font-weight: bold;
     text-align: center;
+    color: var(--color_seis);
 }
 .descripcion{
     margin: 3px;
@@ -134,14 +143,19 @@ a{
 }
 .pedido{
     width: 25%;
-    height: autogi;
-    align-self: center;
+    height: auto;
+    align-self: flex-start;
     padding: 2px;
 }
 .contacto{
     margin: 3px;
     font-size: 1.2em;
     font-weight: bold;
+    color: var(--color_seis);
+}
+.fas,.fab{
+    -webkit-text-stroke: 1px black;
+    color: white;
 }
 /*Footer*/
 .footer {
@@ -157,7 +171,6 @@ a{
   }
   
   .footer-central {
-    color: var(--color_cuatro);
     display: flex;
     justify-content: center;
     align-items: center;
