@@ -58,6 +58,10 @@ a{
     border: 1px solid var(--color_uno);
     border-radius: 5%;
 }
+.pedido_for{
+    background-color: var(--color_seis);
+    color: var(--color_seis);
+}
 
 /*Cuerpo*/
 .cuerpo{
